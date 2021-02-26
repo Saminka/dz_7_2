@@ -1106,10 +1106,10 @@ button {
   color: var(--font-color-light);
 } */
 
-.footer .wrap {
+/* .footer .wrap {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* .footer-logo {
   font-family: var(--font-second);
@@ -1227,8 +1227,8 @@ button {
   content: "";
   /* display: inline-block; */
 
-  /* position: absolute; */
-  /* width: 24px;
+/* position: absolute; */
+/* width: 24px;
   height: 24px;
   margin-left: 10px;
   top: 50%;
@@ -1240,6 +1240,6 @@ button {
   background-image: url(../Images/icon_send.svg);
   background-size: contain;
   background-repeat: no-repeat;
-} */ 
+} */
 
-/* ===== /Футер ===== */ 
+/* ===== /Футер ===== */
