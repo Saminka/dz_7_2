@@ -136,3 +136,25 @@
   color: $font-third-color;
   font-size: 14px;
 }
+
+.social-footer {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #fff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-footer:hover,
+.social-footer:active,
+.social-footer:focus {
+  background-color: $font-second-color;
+  fill: white;
+}
