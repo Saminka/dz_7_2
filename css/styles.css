@@ -38,7 +38,7 @@ body img {
   padding: 0;
 }
 
-header {
+/* header {
   position: fixed;
   width: 100%;
   min-height: 80px;
@@ -51,13 +51,13 @@ header {
 header .link-padding {
   padding: 32px 0;
   min-height: 80px;
-}
+} */
 
-.link-color {
+/* .link-color {
   color: var(--font-second-color);
-}
+} */
 
-.link-underline {
+/* .link-underline {
   position: relative;
   padding: 0;
 }
@@ -78,47 +78,47 @@ header .link-padding {
 
 .link-underline:after {
   opacity: 1;
-}
+} */
 
-.list-margin-style:not(:last-child) {
+/* .list-margin-style:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
-nav .link {
+/* nav .link {
   display: block;
   font-weight: 500;
-}
+} */
 
-.list-no-style-address {
+/* .list-no-style-address {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
-}
+} */
 
-.list-no-style-address .link + .link {
+/* .list-no-style-address .link + .link {
   margin-left: 50px;
-}
+} */
 
 .margin-tel {
   margin-right: 0;
 }
 
-.hero-top {
+/* .hero-container {
   width: 696px;
   margin: 0 auto;
   flex-grow: 1;
   padding: 0;
-}
+} */
 
 .hero .modal-open-btn {
   margin-top: 30px;
 }
 
-.hero h3 {
+/* .hero h3 {
   margin: 0;
   margin-bottom: 12px;
-}
+} */
 
 /* .form-action {
   height: 40px;
@@ -175,7 +175,7 @@ form .modal-open-btn {
   z-index: 1;
 }
 
-.modal-form {
+/* .modal-form {
   display: flex;
   flex-direction: column;
 }
@@ -262,13 +262,13 @@ form .modal-open-btn {
   fill: #2196f3;
 } */
 
-.input-wrapper:focus-within svg {
+/* .input-wrapper:focus-within svg {
   fill: #2196f3;
 }
 
 .input-wrapper:focus-within input {
   border: 1px solid #2196f3;
-}
+} */
 
 /* .modal-form-label-name .input-wrapper::before {
   content: " ";
@@ -276,11 +276,11 @@ form .modal-open-btn {
   background-size: contain;
 } */
 
-textarea::placeholder {
+/* textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
-.policy-style {
+/* .policy-style {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -288,9 +288,9 @@ textarea::placeholder {
   margin-left: 2em;
 
   letter-spacing: 0.03em;
-}
+} */
 
-.form-action {
+/* .form-action {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
@@ -299,15 +299,16 @@ textarea::placeholder {
 .form h3 {
   margin: 0;
 }
+*/
 
 /* .container-hero {
   width: 1200px;
 }
 */
 
-.email {
+/* .email {
   margin-right: 48px;
-}
+} */
 
 .all-container {
   width: 1230px;
@@ -321,12 +322,12 @@ textarea::placeholder {
   /* z-index: 1; */
 }
 
-.list-no-style-address {
+/* .list-no-style-address {
   margin-left: auto;
   font-family: var(--font-main);
   font-style: normal;
   margin-right: 0px;
-}
+} */
 
 /* .logo {
   font-family: var(--font-second);
@@ -365,13 +366,13 @@ h2 {
 
 /* ===== Шапка сайта ===== */
 
-.header a .header a:visited {
+/* .header a .header a:visited {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--font-main-color);
-}
+} */
 
 /* .header .container {
   display: flex;
@@ -387,7 +388,7 @@ h2 {
   border: 1px solid #ececec;
 } */
 
-.header li a:hover,
+/* .header li a:hover,
 .header a:active,
 .header a:focus {
   color: var(--font-second-color);
@@ -396,22 +397,22 @@ h2 {
 .header li a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.a-font-color-dark {
+/* .a-font-color-dark {
   color: var(--font-main-color);
   font-size: 14px;
-}
+} */
 
-.a-font-color-light {
+/* .a-font-color-light {
   color: var(--font-third-color);
   font-size: 14px;
-}
+} */
 /* ===== /Шапка сайта ===== */
 
 /* ===== Герой ===== */
 
-.hero h1 {
+/* .hero h1 {
   font-family: var(--font-main);
   font-style: normal;
   font-weight: 900;
@@ -442,7 +443,7 @@ h2 {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .advantages-padding {
   padding-top: 0;
@@ -466,12 +467,12 @@ h2 {
   border-radius: 4px;
 }
 
-.contacts-hover a {
+/* .contacts-hover a {
   display: inline-flex;
   align-items: center;
-}
+} */
 
-.contacts-hover a:hover,
+/* .contacts-hover a:hover,
 .contacts-hover a:active,
 .contacts-hover a:focus {
   color: var(--font-second-color);
@@ -480,33 +481,33 @@ h2 {
 .contacts-hover a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.email-icon {
+/* .email-icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-size: auto;
-}
+} */
 
-.email-hover {
+/* .email-hover {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
-.tel-hover {
+/* .tel-hover {
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
-.tel-icon {
+/* .tel-icon {
   display: flex;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-}
+} */
 
 .modal-open-btn {
   width: 200px;
@@ -526,7 +527,7 @@ h2 {
   text-align: center;
 }
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -536,18 +537,18 @@ h2 {
   opacity: 1;
 
   transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -564,9 +565,9 @@ h2 {
   transform: translate(-50%, -50%) scale(1);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.btn-close {
+/* .btn-close {
   display: flex;
   position: absolute;
   top: 8px;
@@ -588,7 +589,7 @@ h2 {
 .hero .btn-close:focus {
   background-color: #ffffff;
   fill: var(--font-second-color);
-}
+} */
 
 /* .icon-checkbox:focus {
   outline: 1px solid var(--font-second-color);
@@ -969,11 +970,11 @@ button {
   margin-right: 10px;
 }
 
-.clients-logo-style {
+/* .clients-logo-style {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .team .social {
   display: inline-flex;
@@ -1016,7 +1017,7 @@ button {
 
 /* Постоянные клиенты */
 
-.clients {
+/* .clients {
   padding-top: 94px;
 
   padding-bottom: 94px;
@@ -1032,9 +1033,9 @@ button {
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
-}
+} */
 
-.button-icon {
+/* .button-icon {
   display: flex;
   flex-direction: row;
 
@@ -1063,19 +1064,19 @@ button {
   background-color: white;
   fill: var(--font-second-color);
   border: 1px solid var(--font-second-color);
-}
+} */
 
-.clients li:not(:last-child) {
+/* .clients li:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 /* /Постоянные клиенты */
 
 /* ===== Футер ===== */
 
-.accent {
+/* .accent {
   color: var(--font-second-color);
-}
+} */
 
 /* .footer address {
   font-style: normal;
