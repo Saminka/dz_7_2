@@ -1,7 +1,17 @@
+.footer-container {
+  width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  color: $font-second-color;
+
   background-color: #2f303a;
 
   & li a:hover,
@@ -10,7 +20,7 @@
     color: $font-second-color;
   }
 
-  .footer address {
+  .footer-box-contact address {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -38,6 +48,7 @@
 
     & ul {
       list-style: none;
+      padding-left: 0;
     }
   }
 }
@@ -59,6 +70,8 @@
 }
 
 .footer-icon {
+  display: inline-flex;
+  flex-wrap: wrap;
   padding: 0;
 }
 
@@ -157,4 +170,19 @@
 .social-footer:focus {
   background-color: $font-second-color;
   fill: white;
+}
+
+footer h2 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer-contacts-item {
+  margin-bottom: 9px;
 }
